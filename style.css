@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    /* background-color:#b4fdc0; */
+  }
+  body {
+    background-color: #70b289c7;
+  }
+  .hero-section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  #icon {
+    margin-left: 50px;
+  }
+  .navbar {
+    border-radius: 20px;
+    margin: 10px 12px;
+    background-color: #263849;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+  }
+  .navbar ul {
+    overflow: auto;
+    padding: 10px 10px;
+  }
+  .navbar li {
+    float: left;
+    overflow: auto;
+    padding: 0px 13px;
+    list-style: none;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar a:hover {
+    color: black;
+  }
+  
+  .navbar input {
+    float: right;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+  
+  .Home {
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 5rem 10rem 6rem 10rem;
+    justify-content: space-between;
+    background: #edf7fa;
+    border: 2px solid black;
+    
+  }
+  .Home h1 {
+    font-size: 3.5rem;
+    color: #212121;
+    margin-bottom: 20px;
+  }
+  .details {
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  span {
+    color: #ffa500;
+  }
+  p {
+    color: #555;
+    line-height: 22px;
+  }
+  .Home a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  .pic img {
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    object-position: top center;
+    border: 2px solid black;
+  }
+  
+  .about-me-section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid black;
+    background-color: #edf7fa;
+    margin-top: 5px;
+  }
+  .about-me h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #ffa500;
+    text-decoration: underline;
+    margin-top: 5px;
+  }
+  .about-description {
+    font-size: 1rem;
+    padding: 1rem;
+    line-height: 1.7;
+    margin: 2rem;
+    box-shadow: 1px 1px 1px #efefef, -1px -1px 1px #efefef;
+  }
+  .about-description span {
+    font-size: 1.2rem;
+    color: var(--fourth-color);
+  }
+  .qualifications {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  .qualification-div {
+    width: 330px;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: 2px 2px 2px rgb(80, 203, 255), -2px -2px 2px rgb(80, 203, 255);
+  }
+  .qualification-div h3 {
+    font-size: 1.1rem;
+    color: var(--fourth-color);
+    text-align: center;
+    padding-bottom: 0.2rem;
+  }
+  
+  .Skills {
+    margin-top: 15px;
+    width: 100%;
+    height: 80vh;
+    background: #edf7fa;
+    border: 2px solid black;
+  }
+  .Skills h1 {
+    margin: 13px auto;
+    width: 190px;
+    text-decoration: underline;
+    color: #ffa500;
+  }
+  .Learning ul li {
+    list-style-type: none;
+    width: 20rem;
+    height: 1rem;
+    margin: 12px;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    text-align: left;
+  }
+  .Learning {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .Learning ul li:hover {
+    background-color: #70b289c7;
+  }
+  .container h1 {
+    margin: 13px auto;
+    width: 190px;
+    text-decoration: underline;
+  }
+  .box h3 {
+    text-decoration: underline;
+    margin: 15px;
+  }
+  .Projects {
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #edf7fa;
+  }
+  .myprojects {
+    height: 70vh;
+  
+    width: 100%;
+    align-items: center;
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .myprojects a:hover {
+    color: #23527c;
+  }
+  
+  #page img {
+    width: 100%;
+    height: 57%;
+    border-radius: 5%;
+  }
+  
+  #calculator img {
+    width: 100%;
+    height: 57%;
+    border-radius: 5%;
+  }
+  .Projects h2 {
+    font-size: 2rem;
+    color: #ffa500;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .project_1 {
+      border: solid 8px rgba(217, 203, 203, 0.936);
+      width: 25vw;
+      height: 60vh;
+      border-radius: 6%;
+      padding: 6px;
+      background-color: #00f0;
+  }
+  
+  #calculator {
+      border: solid 8px rgba(217, 203, 203, 0.936);
+      width: 25vw;
+      height: 60vh;
+      border-radius: 6%;
+      padding: 6px;
+      background-color: #00f0;
+  }
+  
+  .contact {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #edf7fa;
+      border: 1px solid black;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 2rem;
+  }
+  .Contact-section {
+      border: 2px solid black;
+      background-color: #edf7fa;
+  }
+  .find-me {
+      margin-bottom: 2rem;
+  }
+  .find-me ul li {
+      list-style: none;
+      margin-bottom: 2rem;
+  }
+  .find-me a {
+      text-decoration: none;
+      color: #337ab7;
+  }
+  
+  .find-me a:hover {
+      color: #23527c;
+  }
+  
+  .form-group {
+      margin-bottom: 2rem;
+  }
+  
+  .form-group input {
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  .form-group textarea {
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  form button textarea {
+      background-color: #337ab7;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  footer {
+    background-color: wheat;
+    margin-left: 0px;
+    padding: 5px;
+    padding-left: 10px;
+  }
